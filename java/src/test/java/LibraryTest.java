@@ -61,6 +61,20 @@ public class LibraryTest {
 
     }
 
+    @Test
+    public void clienteCompraComboDeCocaCervezaManiHabiendoCompradoUnPackDeCocaUnPackDeCervezaUnManiResultandoUNaGanancia() {
+        Coca coca = new PackDeCoca(6, 6).item();
+        Cerveza cerveza = new PackDeCerveza(6, 12).item();
+        Mani mani = new Mani(1);
+        Combo combo = new Combo( coca, cerveza, mani);
+
+        Margen esperado = new Margen(496);
+
+        assertEquals(esperado, combo.venderA(new PrecioVenta(500)));
+
+    }
+
+
               /*
     @Test
     public void testUnChinitoCompraUnaSpriteA12pYLaVendeA150pLaRentaEsDe138p(){

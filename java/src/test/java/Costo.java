@@ -5,6 +5,10 @@ public class Costo {
         this.valor = valor;
     }
 
+    public Costo(double costo) {
+        this.valor = (int) costo;
+    }
+
     public Costo() {
         this.valor = 0;
     }
