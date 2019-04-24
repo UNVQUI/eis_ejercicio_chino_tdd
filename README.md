@@ -28,3 +28,4 @@ La funcionalidad que buscamos implementar **no** cuenta con pruebas y se busca q
 ### Metodología
 
 Programación orientada a objetos + TDD
+
