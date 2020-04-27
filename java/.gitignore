@@ -2,3 +2,4 @@
 java.iml
 .gradle/
 local.properties
+*.xml
